@@ -1,4 +1,4 @@
-name: study_sync
+name: productivity_app_v1
 description: "A new Flutter project."
 publish_to: 'none'
 version: 0.1.0
@@ -7,8 +7,17 @@ environment:
   sdk: ^3.6.0
 
 dependencies:
+  awesome_notifications: ^0.10.0
+  firebase_auth: ^5.4.0
+  firebase_core: ^3.10.0
+  flame: ^1.23.0
   flutter:
     sdk: flutter
+  get: ^4.6.6
+  model_viewer_plus: ^1.9.1
+  provider: ^6.1.2
+  fluttertoast: ^8.2.10
+  cloud_firestore: ^5.6.1
 
 dev_dependencies:
   flutter_test:
@@ -17,3 +26,38 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
+  assets:
+    - assets/threed.glb
+    - assets/avatar_face/face 1.jpeg
+    - assets/avatar_face/face 2.jpeg
+    - assets/crown_transparent.png
+    - assets/adam.png
+    - assets/room1.png
+    - assets/images/
+    - assets/images/room1.png
+    - assets/audio/
+    - assets/notification_sound.wav
+    - assets/todolist_page_background.png
+    - assets/plus_icon.png
+    - assets/room_page_background.png
+    - assets/landing_page_background.png
+    - assets/chronos.png
+    - assets/login_screen_background.png
+
+
+  fonts:
+    - family: Montserrat
+      fonts: 
+        - asset: assets\fonts\Montserrat\Montserrat-Italic-VariableFont_wght.ttf
+          weight: 900
+        - asset: assets\fonts\Montserrat\Montserrat-VariableFont_wght.ttf
+          weight: 900
+
+    - family: ClashGrotesk
+      fonts:
+        - asset: assets\fonts\ClashGrotesk\ClashGrotesk-Variable.ttf
+
+    - family: Lexend
+      fonts:
+        - asset: assets\fonts\Lexend\LexendExa-SemiBold.ttf
